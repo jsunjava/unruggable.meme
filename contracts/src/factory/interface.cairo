@@ -1,3 +1,4 @@
+Start
 use ekubo::types::i129::i129;
 use openzeppelin::token::erc20::ERC20ABIDispatcher;
 use starknet::ContractAddress;
@@ -148,3 +149,4 @@ trait IFactory<TContractState> {
     /// * `bool` - Returns true if the address is a memecoin, false otherwise.
     fn is_memecoin(self: @TContractState, address: ContractAddress) -> bool;
 }
+Finish
